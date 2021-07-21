@@ -1,0 +1,77 @@
+body {
+    width: 100%;
+}
+
+#icon {
+    width: 4%;
+}
+
+#mid-icon {
+    width: 14%;
+}
+
+.main {
+    width: 100%;
+    background-image: url(images/right.png), url(images/left.png), url(images/middle.png), url(images/Intersection\ 11.png);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: bottom right, bottom left, center;
+    background-size: 53% 51%, 52% 44%, 27% 32%, cover;
+    height: 998px;
+}
+
+
+.header {
+    width: 100%;
+    margin: 1rem;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.head-li {
+    display: flex;
+    margin-top: auto;
+}
+
+li {
+    margin-right: 1rem;
+    text-decoration: underline;
+    list-style-type: none;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold italic;
+}
+
+.mid-page {
+    width: 100%;
+    margin: 1rem;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.mid-page li {
+    color: #464B57;
+}
+
+.main-history {
+    width: 100%;
+    background-image: url(images/Intersection\ 19.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 998px;
+}
+
+footer {
+    background-size: cover;
+    background-color: rgba(57, 69, 93, 0.856);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 15.5%;
+    margin-top: 26.9%;
+}
+
+footer img {
+    width: 9%;
+    height: 70%;
+    margin: 1.2% 0.5%;
+}
