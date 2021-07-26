@@ -15,7 +15,7 @@ body {
     background-image: url(images/right.png), url(images/left.png), url(images/middle.png), url(images/Intersection\ 11.png);
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-position: bottom right, bottom left, center;
-    background-size: 53% 51%, 52% 44%, 27% 32%, cover;
+    background-size: 53% 51%, 52% 44%, 40% 29%, cover;
     height: 998px;
 }
 
@@ -60,14 +60,17 @@ li {
     height: 998px;
 }
 
+.main-history .container {
+    height: -webkit-fill-available;
+}
+
 footer {
     background-size: cover;
     background-color: rgba(57, 69, 93, 0.856);
     display: flex;
     justify-content: center;
-    align-content: center;
-    height: 15.5%;
-    margin-top: 26.9%;
+    width: 100%;
+    bottom: 0;
 }
 
 footer img {
